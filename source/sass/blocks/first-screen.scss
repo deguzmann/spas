@@ -1,0 +1,57 @@
+.first-screen {
+  position: relative;
+  margin-top: -64px;
+
+  height: 640px;
+
+  background-color: $bg-grey;
+  background-image: url("../img/index/bg-mountain@1x.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 0;
+
+  &::before {
+    position: absolute;
+    z-index: 0;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: $bg-grey;
+    opacity: 0.3;
+  }
+}
+
+.first-screen__header {
+  position: relative;
+  z-index: 1;
+  height: 620px;
+
+  background-image: url("../img/index/bg-dot-firstscreen@1x.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 100%;
+}
+
+.first-screen__title {
+  position: relative;
+  top: 126px;
+  padding: 15px;
+  width: 600px;
+
+  text-align: center;
+  font-size: 46px;
+  font-weight: 400;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.first-screen__img {
+  position: relative;
+  z-index: 1;
+  margin: 0 auto;
+  top: 200px;
+  display: block;
+}
+

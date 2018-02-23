@@ -1,0 +1,41 @@
+.page-header {
+  position: relative;
+  z-index: 3;
+  height: 64px;
+}
+
+.page-header__wrap {
+  display: flex;
+  align-items: center;
+
+  border-bottom: 2px solid #8e8e8e;
+}
+
+.page-header__nav {
+  margin-left: auto;
+}
+
+.page-header__logo {
+  position: relative;
+  display: block;
+  height: 60px;
+  width: 130px;
+  text-align: center;
+
+  background: #000000;
+
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: -2px;
+    height: 4px;
+    width: 100%;
+    background-color: $green-color;
+  }
+}
+
+.page-header__img {
+  z-index: 2;
+  position: relative;
+}
