@@ -48,10 +48,11 @@
 }
 
 .first-screen__img {
-  position: relative;
-  z-index: 1;
   margin: 0 auto;
   top: 200px;
   display: block;
+  position: relative;
+  z-index: 1;
+  width: 900px;
 }
 

@@ -1,0 +1,21 @@
+.btn {
+  padding: 5px 15px;
+  display: inline-block;
+
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+
+  color: #000000;
+
+  &--info {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 0.5s;
+
+    &:hover {
+      color: $bg-grey;
+      background-color: #ffffff;
+    }
+  }
+}

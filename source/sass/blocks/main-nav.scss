@@ -17,7 +17,7 @@
   position: relative;
   padding: 20px 10px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
 
   text-decoration: none;
   color: #ffffff;
@@ -31,7 +31,7 @@
       content: "";
       height: 2px;
       width: 100%;
-      bottom: -2px;
+      bottom: 0;
       left: 0;
 
       background-color: $green-color;
@@ -47,7 +47,7 @@
     content: "";
     height: 2px;
     width: 100%;
-    bottom: -2px;
+    bottom: 0;
     left: 0;
 
     background-color: $green-color;
