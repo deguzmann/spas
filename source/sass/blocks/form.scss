@@ -1,0 +1,38 @@
+.form__inner {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+
+  background-color: #eaeaea;
+}
+
+.form__input {
+  padding: 10px;
+  height: 20px;
+  outline-color: #5eaa2f;
+
+  border: 1px solid $green-color;
+}
+
+.form__checkbox {
+  display: none;
+}
+
+.form__checkbox:checked + label::before {
+  background-image: url("../img/icon/icon-tick.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  font-size: 30px;
+  color: #68b738;
+  text-align: center;
+  line-height: 25px;
+}
+
+.form__label {
+  margin-right: 15px;
+  flex-shrink: 0;
+  position: relative;
+}

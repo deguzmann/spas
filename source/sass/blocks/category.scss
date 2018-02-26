@@ -1,5 +1,6 @@
 .category__list {
   margin: 0;
+  padding: 0;
   display: flex;
 
   list-style: none;
@@ -16,10 +17,6 @@
 
   &:hover {
     background-color: #cccccc;
-
-    .category__name {
-      color: $green-color;
-    }
   }
 }
 
@@ -42,5 +39,5 @@
   font-size: 20px;
 
   font-weight: 400;
-  color: $bg-grey;
+  color: #000000;
 }

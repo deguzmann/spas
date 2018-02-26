@@ -4,8 +4,9 @@
 }
 
 .company__about-inner {
-  padding: 15px 30px;
+  padding: 30px;
   position: absolute;
+  z-index: 2;
   top: -100px;
   height: 390px;
   display: flex;
@@ -34,6 +35,10 @@
 
     background-color: #ffffff;
   }
+}
+
+.company__desc {
+  line-height: 28px;
 }
 
 .company__link {
