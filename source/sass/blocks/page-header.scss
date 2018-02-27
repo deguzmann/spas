@@ -1,7 +1,22 @@
 .page-header {
   position: relative;
   z-index: 3;
-  height: 64px;
+  height: 180px;
+
+  background-image: url("../img/category/bg-header@1x.jpg");
+  background-position: 0 0;
+  background-size: 100% auto;
+  border-bottom: 15px solid #40c4c8;
+  border-image: url("../img/category/border_header_bottom@1x.jpg") 20 round round;
+
+
+  &--home {
+    background-image: none;
+    height: 64px;
+
+    border-bottom: none;
+    border-image: none;
+  }
 }
 
 .page-header__wrap {
