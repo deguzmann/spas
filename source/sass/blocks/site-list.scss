@@ -1,0 +1,15 @@
+.site-list {
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+  list-style: none;
+}
+
+.site-list__link {
+  color: #ffffff;
+  text-decoration: none;
+
+  &:hover {
+    color: $green-color;
+  }
+}

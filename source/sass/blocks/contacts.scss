@@ -1,0 +1,32 @@
+.contacts {
+  &--footer {
+    text-align: right;
+  }
+}
+
+.contacts__title {
+  &--footer {
+    margin: 0;
+    margin-bottom: 6px;
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+}
+
+.contacts__phone {
+  margin-bottom: 6px;
+  display: block;
+
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contacts__adress {
+  margin: 0;
+  padding: 0;
+
+  color: #ffffff;
+  font-weight: 600;
+}

@@ -1,0 +1,18 @@
+.label {
+  &--data-processing {
+    padding: 0;
+  }
+
+  &--data-processing::before {
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 15px;
+    height: 15px;
+    content: "";
+    display: inline-block;
+    background-color: #ffffff;
+    border: 1px solid $green-color;
+    box-sizing: border-box;
+  }
+}

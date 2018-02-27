@@ -1,5 +1,5 @@
 .form__inner {
-  padding: 15px;
+  padding: 10px 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -20,7 +20,7 @@
   display: none;
 }
 
-.form__checkbox:checked + label::before {
+.form__checkbox:checked + .form__label::before {
   background-image: url("../img/icon/icon-tick.png");
   background-repeat: no-repeat;
   background-position: center;
@@ -35,4 +35,9 @@
   margin-right: 15px;
   flex-shrink: 0;
   position: relative;
+}
+
+.form__data-processing {
+  font-size: 9px;
+  margin-left: 20px;
 }

@@ -291,9 +291,9 @@
             <input class="form__input" type="text" placeholder="Как к Вам обращаться?">
             <input class="form__input" type="text" placeholder="Ваш телефон">
             <div class="form__field">
-              <input class="form__checkbox" type="checkbox">
-              <label class="form__label" for="">
-                <span>Согласие на обработку персональных данных</span>
+              <input class="form__checkbox" id="checkbox-data-processing" type="checkbox" name="data-processing" checked>
+              <label class="form__label  label  label--data-processing" for="checkbox-data-processing">
+                <a class="form__data-processing" href="#">Согласие на обработку персональных данных</a>
               </label>
             </div>
             <button class="form__btn  btn  btn--green">Заказать консультацию</button>
@@ -323,6 +323,46 @@
     <!-- /.partners -->
   </div>
 
-  <footer class="page-footer"></footer>
+  <footer class="page-footer">
+    <div class="page-footer__wrap  container">
+      <div class="page-footer__nav">
+        <ul class="site-list">
+          <li class="site-list__item">
+            <a href="#" class="site-list__link">Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#" class="site-list__link">О компании</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#" class="site-list__link">Контакты</a>
+          </li>
+          <li class="site-list__item">
+            <a href="#" class="site-list__link">Список партнеров</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__product">
+        <ul class="site-list">
+          <li class="site-list__item-product">
+            <a href="#" class="site-list__link">Ларь-бонета arctica</a>
+          </li>
+          <li class="site-list__item-product">
+            <a href="#" class="site-list__link">Морозильные горки</a>
+          </li>
+          <li class="site-list__item-product">
+            <a href="#" class="site-list__link">Ларь-бонета островная</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="page-footer__contacts  contacts  contacts--footer">
+        <p class="contacts__title  contacts__title--footer">Телефон</p>
+        <a href="" class="contacts__phone">8 (800) 000 00 00</a>
+        <p class="contacts__title  contacts__title--footer">Адрес</p>
+        <p class="contacts__adress">Москва, ул. Пушкина</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
